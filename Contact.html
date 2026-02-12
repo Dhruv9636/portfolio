@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Contact-style.css">
+</head>
+
+<body>
+    <h2 id="head">Contact</h2>
+    <div class="error error2">
+        <div class="errorMsg">
+            <div class="mainMsg">message</div>
+            <div id="btnMsg">
+                <button type="button" class="myMsgBtn">DONE</button>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div id="main">
+            <div id="form">
+                <form action="https://formspree.io/f/xojwzvnd" method="POST" value="thankyou.html" name="_next">
+                    <div id="inputs">
+                        <textarea name="message" id="msg" placeholder="Leave a message" class="input"></textarea>
+                        <input type="tel" id="num" name="phone" class="input" placeholder="Mobile no." maxlength="10" inputmode="numeric">
+                    </div>
+                    <div id="sum-btn">
+                        <button type="button" id="btn">Sumbit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="Contact-script.js"></script>
+</body>
+
+</html>

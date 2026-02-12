@@ -1,0 +1,398 @@
+body {
+    background-image: url(addddd.jpg);
+    background-size: cover;
+    min-height: 100vh;
+}
+
+main {
+    height: 70vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#form {
+    height: 95%;
+    width: 40%;
+    border-radius: 7px;
+    background-color: rgba(255 255 255 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 8px black;
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    font-family: arial;
+    color: aliceblue;
+    font-size: 30px;
+    text-decoration: aliceblue wavy underline;
+}
+
+#head {
+    text-align: center;
+}
+
+#inputs {
+    height: 60%;
+    width: 85%;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 20%;
+    width: 95%;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    box-shadow: 0px 0px 5px black;
+    font-size: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    padding-left: 10px;
+    transition-duration: 0.5s;
+}
+
+.input:hover {
+    transform: scale(1.03);
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.input:active {
+    transition-duration: 0.2s;
+    background-color: transparent
+}
+
+#sum-btn {
+    height: 20%;
+    width: 85%;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn {
+    height: 60%;
+    width: 30%;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    box-shadow: 0px 0px 3px black;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+#btn:hover {
+    color: black;
+    transition-duration: 0.5s;
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.05);
+}
+
+#btn:active {
+    background-color: black;
+    color: blanchedalmond;
+    transition-duration: 0.2s;
+}
+
+.main2 {
+    display: none;
+}
+
+
+.error {
+    height: 75vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.errorMsg {
+    height: 90%;
+    width: 40%;
+    border-radius: 7px;
+    box-shadow: 0px 0px 6px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.mainMsg {
+    width: 95%;
+    height: 70%;
+    color: white;
+    font-size: 40px;
+    font-family: arial;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+#btnMsg {
+    height: 30%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myMsgBtn {
+    height: 30%;
+    width: 25%;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0px 0px 6px black;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.myMsgBtn:hover {
+    transform: scale(1.07);
+    background-color: white;
+    color: black;
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 10px black;
+}
+
+.myMsgBtn:active {
+    background-color: transparent;
+    transition-duration: 0.2s;
+}
+
+.error2 {
+    display: none;
+}
+
+
+@media(max-width: 850px) {
+    #form {
+        width: 55%;
+    }
+
+
+
+    .errorMsg {
+        width: 50%;
+        height: 80%;
+    }
+
+    .mainMsg {
+        width: 95%;
+        height: 65%;
+        color: white;
+        font-size: 35px;
+        font-family: arial;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .myMsgBtn {
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 600px) {
+    #form {
+        width: 92%;
+    }
+
+
+
+    .errorMsg {
+        width: 70%;
+        height: 80%;
+    }
+
+    .mainMsg {
+        width: 95%;
+        height: 65%;
+        color: white;
+        font-size: 35px;
+        font-family: arial;
+        text-align: center;
+        display: flex;
+        align-items: center;
+    }
+
+    .myMsgBtn {
+        font-size: 15px;
+    }
+}
+
+
+
+@media(max-width: 500px) {
+    #form {
+        width: 300px;
+        height: 100%;
+    }
+
+    #inputs {
+        width: 90%;
+        height: 70%;
+    }
+
+    #sum-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    #btn {
+        height: 60%;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    #main {
+        height: 100%;
+    }
+
+    main {
+        margin-top: 100px;
+        height: 55vh;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .cont {
+        font-size: 15px;
+    }
+
+    .mainMsg {
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    .errorMsg {
+        width: 95%;
+        height: 60%;
+    }
+
+    #msgBtn {
+        height: 45%;
+        width: auto;
+        font-size: 15px;
+    }
+
+    #msgBtn:hover {
+        transform: scale(1);
+    }
+
+    .myMsgBtn {
+        width: auto;
+    }
+
+    .errorMsg {
+        width: 60%;
+        height: 80%;
+    }
+
+    .myMsgBtn {
+        font-size: 15px;
+    }
+}
+
+
+@media(max-width: 400px) {
+    #form {
+        width: 230px;
+        height: 100%;
+    }
+
+    #inputs {
+        width: 90%;
+        height: 70%;
+    }
+
+    #sum-btn {
+        display: flex;
+        align-items: center;
+    }
+
+    #btn {
+        height: 60%;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    #main {
+        height: 100%;
+    }
+
+    main {
+        margin-top: 100px;
+        height: 50vh;
+        width: 100%;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .cont {
+        font-size: 15px;
+    }
+
+    .mainMsg {
+        height: 70%;
+        font-size: 25px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+
+
+    .errorMsg {
+        width: 245px;
+        height: 60%;
+    }
+
+    .myMsgBtn {
+        font-size: 15px;
+        height: 50%;
+        width: auto;
+    }
+
+    #btnMsg {
+        height: 25%;
+    }
+}

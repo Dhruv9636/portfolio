@@ -1,0 +1,455 @@
+body {
+  background-image: url(addddd.jpg);
+  background-size: cover;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  text-decoration: white wavy underline;
+  color: white;
+}
+
+.hero {
+  border: 1px solid rgba(255 255 255 0.1);
+  background-color: rgba(255 255 255 0.1);
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 0px 10px black;
+  height: 70vh;
+  border-radius: 10px;
+  z-index: 1;
+  animation: fadeIn 1.2s ease;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+
+#nav {
+  height: 11vh;
+  background-color: rgba(255 255 255 0.2);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.links {
+  height: 50%;
+  width: 10%;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+
+.links:hover {
+  transform: scale(1.07);
+  transition-duration: 0.3s;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: 0px 0px 5px black;
+}
+
+.link {
+  color: aliceblue;
+  text-decoration: none;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link:hover {
+  color: aliceblue;
+}
+
+#intro {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50%;
+}
+
+#about {
+  width: 50%;
+  height: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about {
+  width: 75%;
+  color: white;
+  font-family: arial;
+  margin: 0%;
+  font-size: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 35px;
+}
+
+#img {
+  width: 30%;
+  height: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.myImg {
+  height: 95%;
+  width: 180px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
+  cursor: pointer;
+  transition-duration: 0.9s;
+}
+
+.myImg:hover {
+  border-radius: 5px;
+  transition-duration: 0.9s;
+  box-shadow: 0px 0px 5px white;
+}
+
+#skills {
+  height: 35%;
+  margin-right: 5px;
+}
+
+.skill {
+  height: 100%;
+  width: 10%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#skill {
+  height: 100%;
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.skills {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.I {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 0px 5px black;
+  transition-duration: 0.5s;
+}
+
+.I:hover {
+  transform: scale(1.07);
+  box-shadow: 0px 0px 10px black;
+  transition-duration: 0.5s;
+}
+
+#sk {
+  height: 20%;
+  width: 30%;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  color: white;
+  margin-left: 0px;
+  text-decoration: white wavy underline;
+}
+
+#s {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  height: 50vh;
+}
+
+#foot {
+  color: white;
+  font-size: 20px;
+  font-family: arial;
+  text-align: center;
+  height: 30%;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  padding-bottom: 40px;
+  width: 78%;
+  margin: auto;
+}
+
+
+#contact {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-weight: 500;
+}
+
+.contact:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+  transition: 0.5s;
+}
+
+.contactImg {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.contactImg:hover {
+  box-shadow: 0px 0px 10px black;
+  transform: scale(1.05);
+  transition-duration: 0.3s;
+  box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.7);
+}
+
+hr {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 80%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+@media(max-width: 1000px) {
+  .about {
+    font-size: 35px;
+    width: 80%;
+  }
+}
+
+
+@media(max-width: 780px) {
+  .links {
+    width: 20%;
+    height: 70%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px black;
+  }
+
+  #nav {
+    height: 7vh;
+  }
+
+  #about {
+    width: 65%;
+    height: 70%;
+  }
+
+  .about {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  #img {
+    height: 80%;
+    width: 35%;
+  }
+
+  .myImg {
+    height: 95%;
+    width: 150px;
+  }
+
+  #intro {
+    display: flex;
+    height: 50%;
+  }
+
+  #s {
+    height: 30%;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  #foot {
+    height: 65%;
+  }
+
+  .hero {
+    height: 60vh;
+  }
+
+  #skills {
+    height: 45%;
+  }
+
+  .skill {
+    height: 100%;
+    width: 66px;
+  }
+
+}
+
+
+
+
+@media(max-width: 550px) {
+  .links {
+    width: 20%;
+    height: 60%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 10px black;
+  }
+
+  .link {
+    font-size: 12px;
+  }
+
+  #nav {
+    height: 6vh;
+  }
+
+  #about {
+    width: 95%;
+    height: 50%;
+  }
+
+  .about {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  #intro {
+    display: flex;
+    flex-wrap: wrap;
+    height: 60%;
+  }
+
+  #img {
+    height: 50%;
+    width: 130px;
+  }
+
+  #skills {
+    height: 25%;
+  }
+
+  #s {
+    height: 50%;
+  }
+
+  #skill {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .skill {
+    height: 100%;
+    width: 60px;
+  }
+
+  footer {
+    height: auto;
+  }
+
+  #foot {
+    height: 55%;
+    font-size: 15px;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .last {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: auto;
+  }
+
+  #contact {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1px;
+    height: 20%;
+  }
+
+  .contact {
+    height: auto;
+    margin: auto;
+    font-size: 15px;
+    gap: 5px;
+    width: auto;
+  }
+
+  .contactImg {
+    height: 15px;
+    width: 15px;
+  }
+}
